@@ -1,0 +1,162 @@
+body {
+    margin: 0;
+}
+
+
+
+nav {
+    padding: 15px;
+    background-color: #E5C3A6;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    font-family: Arial;
+}
+
+a:hover {
+    color: darkgray;
+}
+
+.productnaam {
+    padding: 10px;
+    margin: 10px;
+    font-family: Arial;
+}
+
+.productimg {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    margin: 10px;
+}
+
+.productinfo {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 20px;
+    width: 200px;
+    font-family: Arial;
+}
+
+.productinfo p,
+.productinfo ul {
+    margin-top: 0;
+}
+
+.button {
+    background-color: #4B527E;
+    color: white;
+    padding: 15px 125px;
+    text-decoration: none;
+    font-size: 14px;
+    border: none;
+    border-radius: 8px;
+}
+
+.bestellink {
+    text-decoration: none;
+    color: black;
+}
+
+.plusminomschrijving {
+    display: flex;
+    flex-direction: row;
+}
+
+.plusmin {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 20px;
+    font-family: Arial;
+    background-color: #7C81AD;
+    border-radius: 12px;
+    width: 420px;
+}
+
+.plusmin p,
+.plusmin h3,
+.plusmin ul {
+    margin-top: 0;
+}
+
+.plusmin *:last-child {
+    margin-bottom: 0;
+}
+
+.omschrijving {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 10px;
+    font-family: Arial;
+}
+
+.gerelateerd {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: Arial;
+    background-color: #7C81AD;
+}
+
+.gerelateerdimg {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.gerimg {
+    padding: 10px;
+    margin: 10px;
+    background-color: #4B527E;
+}
+
+.gerelateerdprod {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.extraproducten {
+    padding: 15px;
+    margin: 12px;
+}
+
+.geromschrijving {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.geromsch {
+    padding: 15px;
+    margin: 12px;
+    width: 100px;
+}
+
+
+
+.footer {
+    padding: 25px;
+    background-color: #2E4374;
+}
+
+.footerlink {
+    display: flex;
+    text-decoration: none;
+    color: #E5C3A6;
+    padding: 10px;
+    justify-content: center;
+    flex-direction: row;
+    font-family: Arial;
+}
+
+.container {
+    width: 1024px;
+    margin: 0 auto;
+}
